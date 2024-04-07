@@ -27,6 +27,7 @@ export default function Card(props) {
         </h3>
         <p className="destination-description">{props.description}</p>
       </div>
+      <hr />
     </div>
   );
 }

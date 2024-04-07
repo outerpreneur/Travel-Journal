@@ -568,7 +568,8 @@ function Card(props) {
         { className: "destination-description" },
         props.description
       )
-    )
+    ),
+    _react2.default.createElement("hr", null)
   );
 }
 
