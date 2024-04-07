@@ -6,6 +6,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background-color: yellow;
 }
 
 .nav--section {
@@ -97,4 +98,45 @@ body {
   font-weight: 500;
   color: #2b283a;
   margin-top: 9px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: aqua;
+    font-size: 5em;
+  }
+  .destination-card {
+    flex-direction: column;
+    background-color: red;
+  }
+  .destination-card--image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .destination-card--column-1,
+  .destination-card--column-2 {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .destination-card--location {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .destination-card--location img {
+    width: 8px;
+  }
+  .destination-card--location p,
+  .destination-card--location a {
+    font-size: 8px;
+  }
+  .destination-card--column-2 h2 {
+    font-size: 20px;
+  }
+  .destination-card--column-2 h3 {
+    font-size: 8px;
+  }
+  .destination-card--column-2 .destination-description {
+    font-size: 12px;
+  }
 }
