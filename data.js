@@ -71,4 +71,29 @@ export default [
     imageUrl:
       "https://www.campinglapinede.fr/wp-content/uploads/2023/06/narbonne-1.jpg",
   },
+  // Insert two more destinations here: Valence(france) and London
+  {
+    id: 7,
+    title: "Valence",
+    location: "France",
+    googleMapsUrl: "https://maps.app.goo.gl/23tzJjDjMkQYvyVU7",
+    startDate: "13 Apr, 2024",
+    endDate: "14 Apr, 2024",
+    description:
+      "Valence, France, is a charming city known for its Romanesque architecture and vibrant markets. Visitors can explore the historic Saint-Apollinaire Cathedral and enjoy scenic strolls along the Rhône River.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1590664216212-62e763768cae?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 8,
+    title: "London",
+    location: "England",
+    googleMapsUrl: "https://maps.app.goo.gl/23tzJjDjMkQYvyVU7",
+    startDate: "1 Jun, 2024",
+    endDate: "2 Jun, 2024",
+    description:
+      "London, England, is a bustling metropolis renowned for its iconic landmarks and rich history. Visitors can explore the majestic Tower of London and enjoy scenic walks along the Thames River.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1486299267070-83823f5448dd?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
 ];
